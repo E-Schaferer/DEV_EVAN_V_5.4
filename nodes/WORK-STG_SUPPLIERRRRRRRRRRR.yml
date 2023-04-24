@@ -1,5 +1,5 @@
 steps:
-  STG_SUPPLIER-fb4937aa-23b9-4c60-b54b-f7b2331155b6:
+  STG_SUPPLIERRRRRRRRRRR-fb4937aa-23b9-4c60-b54b-f7b2331155b6:
     operation:
       config:
         insertStrategy: INSERT
@@ -125,9 +125,9 @@ steps:
                 nodeName: SUPPLIER
             join:
               joinCondition: FROM {{ ref('SAMPLE', 'SUPPLIER') }} "SUPPLIER"
-            name: STG_SUPPLIER
+            name: STG_SUPPLIERRRRRRRRRRR
             noLinkRefs: []
-      name: STG_SUPPLIER
+      name: STG_SUPPLIERRRRRRRRRRR
       overrideSQL: false
       schema: ""
       sqlType: Stage
