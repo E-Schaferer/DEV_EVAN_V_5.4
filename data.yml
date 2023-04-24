@@ -16,9 +16,15 @@ jobs:
     subgraphs: []
 locations:
   SAMPLE:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "2":
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
   WORK:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "2":
+        database: DEV_EVAN_V_5_4
+        schema: QA_STAGING
 macros: {}
 packages: {}
 projects: {}
